@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "enbys-mod",
+	"version": "${version}",
+	"name": "Enbys Mod",
+	"description": "A small mod I made to add some stuff for our modpack",
+	"authors": [
+		"@enbyvampy"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "MIT",
+	"icon": "assets/enbys-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["com.projektdeus.EnbysMod"],
+		"client": ["com.projektdeus.EnbysModClient"],
+		"fabric-datagen": ["com.projektdeus.EnbysModDataGenerator"]
+	},
+	"mixins": [
+		"enbys-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
