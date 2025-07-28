@@ -1,0 +1,15 @@
+{
+  "item.enbys-mod.copper_coin": "Copper Coin",
+  "item.enbys-mod.iron_coin": "Iron Coin",
+  "item.enbys-mod.gold_coin": "Gold Coin",
+  "item.enbys-mod.diamond_coin": "Diamond Coin",
+  "item.enbys-mod.emerald_coin": "Emerald Coin",
+  "item.enbys-mod.netherite_coin": "Netherite Coin",
+
+  "block.enbys-mod.copper_coin_block": "Copper Coin Block",
+  "block.enbys-mod.iron_coin_block": "Iron Coin Block",
+  "block.enbys-mod.gold_coin_block": "Gold Coin Block",
+  "block.enbys-mod.diamond_coin_block": "Diamond Coin Block",
+  "block.enbys-mod.emerald_coin_block": "Emerald Coin Block",
+  "block.enbys-mod.netherite_coin_block": "Netherite Coin Block"
+}

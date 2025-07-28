@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "enbys-mod:block/emerald_coin_block"
+    }
+  }
+}
