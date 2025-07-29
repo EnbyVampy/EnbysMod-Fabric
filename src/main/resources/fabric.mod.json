@@ -15,9 +15,15 @@
 	"icon": "assets/enbys-mod/icon.png",
 	"environment": "*",
 	"entrypoints": {
-		"main": ["com.projektdeus.EnbysMod"],
-		"client": ["com.projektdeus.EnbysModClient"],
-		"fabric-datagen": ["com.projektdeus.EnbysModDataGenerator"]
+		"main": [
+          "com.projektdeus.enbysmod.EnbysMod"
+        ],
+		"client": [
+			"com.projektdeus.enbysmod.EnbysModClient"
+		],
+		"fabric-datagen": [
+			"com.projektdeus.enbysmod.EnbysModDataGenerator"
+		]
 	},
 	"mixins": [
 		"enbys-mod.mixins.json"

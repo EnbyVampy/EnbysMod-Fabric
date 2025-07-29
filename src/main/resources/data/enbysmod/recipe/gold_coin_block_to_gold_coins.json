@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients":[
+    {
+      "item": "enbysmod:gold_coin_block"
+    }
+  ],
+  "result": {
+    "count":9,
+    "id": "enbysmod:gold_coin"
+  }
+}

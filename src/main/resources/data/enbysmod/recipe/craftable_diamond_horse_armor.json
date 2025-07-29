@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  #",
+    "DLD",
+    "J J"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:diamond_helmet"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "L": {
+      "item": "minecraft:light_gray_wool"
+    },
+    "J": {
+      "item": "minecraft:diamond_leggings"
+    }
+  },
+  "result": {
+    "id": "minecraft:diamond_horse_armor",
+    "count": 1
+  }
+}

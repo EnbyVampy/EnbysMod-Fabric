@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "enbysmod:block/netherite_coin_block"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "enbysmod:block/diamond_coin_block"
+    }
+  }
+}

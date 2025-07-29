@@ -1,0 +1,19 @@
+{
+  "itemGroup.enbysmod.tabs.blocks": "Enbys Mod Blocks",
+  "itemGroup.enbysmod.tabs.coins": "Enbys Mod Coins",
+  "itemGroup.enbysmod.tabs.custom": "Enbys Custom Recipes",
+
+  "item.enbysmod.copper_coin": "Copper Coin",
+  "item.enbysmod.iron_coin": "Iron Coin",
+  "item.enbysmod.gold_coin": "Gold Coin",
+  "item.enbysmod.diamond_coin": "Diamond Coin",
+  "item.enbysmod.emerald_coin": "Emerald Coin",
+  "item.enbysmod.netherite_coin": "Netherite Coin",
+
+  "block.enbysmod.copper_coin_block": "Copper Coin Block",
+  "block.enbysmod.iron_coin_block": "Iron Coin Block",
+  "block.enbysmod.gold_coin_block": "Gold Coin Block",
+  "block.enbysmod.diamond_coin_block": "Diamond Coin Block",
+  "block.enbysmod.emerald_coin_block": "Emerald Coin Block",
+  "block.enbysmod.netherite_coin_block": "Netherite Coin Block"
+}

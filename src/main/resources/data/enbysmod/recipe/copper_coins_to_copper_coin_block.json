@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "enbysmod:copper_coin"
+    }
+  },
+  "pattern":[
+    "###",
+    "###",
+    "###"
+  ],
+  "result":{
+    "count":1,
+      "id": "enbysmod:copper_coin_block"
+  }
+}

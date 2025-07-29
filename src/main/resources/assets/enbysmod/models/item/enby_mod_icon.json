@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "enbysmod:item/enby_mod_icon"
+  }
+}

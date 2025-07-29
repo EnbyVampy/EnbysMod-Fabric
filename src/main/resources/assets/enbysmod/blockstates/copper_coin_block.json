@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "enbysmod:block/copper_coin_block"
+    }
+  }
+}
