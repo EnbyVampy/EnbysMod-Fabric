@@ -6,16 +6,20 @@ import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
-import net.minecraft.item.MinecartItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
-    public static final ItemGroup ENBYS_MOD_ITEMS_TAB = Registry.register(Registries.ITEM_GROUP, Identifier.of(EnbysMod.MOD_ID,"enbys_mod_coins_tab"),
+    public static final ItemGroup ENBYS_MOD_ITEMS_TAB = Registry.register(Registries.ITEM_GROUP, Identifier.of(EnbysMod.MOD_ID,"enbys_mod_items_tab"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.ENBYVAMPY_PLUSHIE))
+                    .displayName(Text.translatable("itemGroup.enbysmod.tabs.items"))
+                    .entries((displayContext, entries) -> entries.add(ModBlocks.ENBYVAMPY_PLUSHIE))
+                    .build());
+    public static final ItemGroup ENBYS_MOD_CURRENCY_TAB = Registry.register(Registries.ITEM_GROUP, Identifier.of(EnbysMod.MOD_ID,"enbys_mod_currency_tab"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.ENBY_MOD_ICON))
-                    .displayName(Text.translatable("itemGroup.enbysmod.tabs.coins"))
+                    .displayName(Text.translatable("itemGroup.enbysmod.tabs.currency"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.COPPER_COIN);
                         entries.add(ModItems.IRON_COIN);
@@ -49,10 +53,7 @@ public class ModItemGroups {
                     })
                     .build());
 
-
-
-
     public static void registerItemGroups() {
-        EnbysMod.LOGGER.info("Registering ItemGroups for EnbysMod");
-    }
+//        EnbysMod.LOGGER.info("Registering ItemGroups for EnbysMod\nItemGroup for Enbys Mod Items:{}\nItemGroup for Enbys Mod Currency: {}\nItemGroup for Enbys Mod Blocks: {}\nItemGroup for Enbys Mod Custom Recipes: {}", ENBYS_MOD_ITEMS_TAB.toString(), ENBYS_MOD_CURRENCY_TAB.toString(), ENBYS_MOD_BLOCKS_TAB.toString(), ENBYS_MOD_CUSTOM_RECIPES_TAB.toString());
+          }
 }

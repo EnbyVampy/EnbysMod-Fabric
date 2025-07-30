@@ -1,6 +1,7 @@
 package com.projektdeus.enbysmod.block;
 
 import com.projektdeus.enbysmod.EnbysMod;
+import com.projektdeus.enbysmod.block.custom.PlushieCraftingBench;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
@@ -12,6 +13,14 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
     public static final Block ENBY_MOD_BLOCK_ICON = registerBlock("enby_mod_block_icon",new Block(AbstractBlock.Settings.create()));
+
+//    public static final Block PLUSHIE_CRAFTING_BENCH = registerBlock("plushie_crafting_bench",new PlushieCraftingBench(AbstractBlock.Settings.create()
+//            .strength(1.0f).sounds(BlockSoundGroup.WOOD)));
+
+
+    public static final Block ENBYVAMPY_PLUSHIE = registerBlock("enbyvampy_plushie", new PlushieBlock(AbstractBlock.Settings.create()
+            .strength(1.0f).sounds(BlockSoundGroup.WOOL).nonOpaque()));
+
 
     public static final Block COPPER_COIN_BLOCK = registerBlock("copper_coin_block",new Block(AbstractBlock.Settings.create()
             .strength(5.0f).requiresTool().sounds(BlockSoundGroup.ANVIL)    ));
@@ -26,14 +35,16 @@ public class ModBlocks {
     public static final Block NETHERITE_COIN_BLOCK = registerBlock("netherite_coin_block",new Block(AbstractBlock.Settings.create()
             .strength(5.0f).requiresTool().sounds(BlockSoundGroup.ANVIL)    ));
 
+
+    //Helper Methods to register blocks and block items
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name,block);
         return Registry.register(Registries.BLOCK, Identifier.of(EnbysMod.MOD_ID,name),block);
     }
-
     private static void registerBlockItem(String name, Block block){
         Registry.register(Registries.ITEM, Identifier.of(EnbysMod.MOD_ID,name),new BlockItem(block,new Item.Settings()));
     }
+
 
     public static void registerModBlocks() {
         EnbysMod.LOGGER.info("Registering Blocks for EnbysMod");

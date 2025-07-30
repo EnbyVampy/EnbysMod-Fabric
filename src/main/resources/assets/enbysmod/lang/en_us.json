@@ -1,7 +1,8 @@
 {
   "itemGroup.enbysmod.tabs.blocks": "Enbys Mod Blocks",
-  "itemGroup.enbysmod.tabs.coins": "Enbys Mod Coins",
+  "itemGroup.enbysmod.tabs.currency": "Enbys Mod Currency",
   "itemGroup.enbysmod.tabs.custom": "Enbys Custom Recipes",
+  "itemGroup.enbysmod.tabs.items": "Enbys Mod Items",
 
   "item.enbysmod.copper_coin": "Copper Coin",
   "item.enbysmod.iron_coin": "Iron Coin",
@@ -10,6 +11,8 @@
   "item.enbysmod.emerald_coin": "Emerald Coin",
   "item.enbysmod.netherite_coin": "Netherite Coin",
 
+  "block.enbysmod.plushie_crafting_bench": "Plushie Crafting Bench",
+  "block.enbysmod.enbyvampy_plushie": "Enbyvampy Plushie",
   "block.enbysmod.copper_coin_block": "Copper Coin Block",
   "block.enbysmod.iron_coin_block": "Iron Coin Block",
   "block.enbysmod.gold_coin_block": "Gold Coin Block",
