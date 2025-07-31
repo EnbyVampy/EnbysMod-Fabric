@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "enbysmod:block/plushie_crafting_bench", "y": 180 },
+    "facing=east":  { "model": "enbysmod:block/plushie_crafting_bench", "y": 270 },
+    "facing=south": { "model": "enbysmod:block/plushie_crafting_bench", "y": 0 },
+    "facing=west":  { "model": "enbysmod:block/plushie_crafting_bench", "y": 90 }
+  }
+}

@@ -2,6 +2,7 @@ package com.projektdeus.enbysmod.block;
 
 import com.projektdeus.enbysmod.EnbysMod;
 import com.projektdeus.enbysmod.block.custom.PlushieCraftingBench;
+import com.projektdeus.enbysmod.block.custom.Plushie_Enbyvampy;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
@@ -13,15 +14,10 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
     public static final Block ENBY_MOD_BLOCK_ICON = registerBlock("enby_mod_block_icon",new Block(AbstractBlock.Settings.create()));
-
-//    public static final Block PLUSHIE_CRAFTING_BENCH = registerBlock("plushie_crafting_bench",new PlushieCraftingBench(AbstractBlock.Settings.create()
-//            .strength(1.0f).sounds(BlockSoundGroup.WOOD)));
-
-
-    public static final Block ENBYVAMPY_PLUSHIE = registerBlock("enbyvampy_plushie", new PlushieBlock(AbstractBlock.Settings.create()
-            .strength(1.0f).sounds(BlockSoundGroup.WOOL).nonOpaque()));
-
-
+    public static final Block PLUSHIE_CRAFTING_BENCH = registerBlock("plushie_crafting_bench",new PlushieCraftingBench(AbstractBlock.Settings.create()
+            .strength(1.0f).sounds(BlockSoundGroup.WOOD).nonOpaque()));
+    public static final Block ENBYVAMPY_PLUSHIE = registerBlock("enbyvampy_plushie", new Plushie_Enbyvampy(AbstractBlock.Settings.create()
+                .strength(1.0f).sounds(BlockSoundGroup.WOOL).nonOpaque()));
     public static final Block COPPER_COIN_BLOCK = registerBlock("copper_coin_block",new Block(AbstractBlock.Settings.create()
             .strength(5.0f).requiresTool().sounds(BlockSoundGroup.ANVIL)    ));
     public static final Block IRON_COIN_BLOCK = registerBlock("iron_coin_block",new Block(AbstractBlock.Settings.create()
