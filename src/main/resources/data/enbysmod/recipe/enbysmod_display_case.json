@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "G",
+    "_"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:chain"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "_": {
+      "item": "enbysmod:display_platform"
+    }
+  },
+  "result": {
+    "id": "enbysmod:display_case",
+    "count": 1
+  }
+}

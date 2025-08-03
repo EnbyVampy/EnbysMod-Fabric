@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "enbysmod:block/daipanda_plushie", "y": 180 },
+    "facing=east":  { "model": "enbysmod:block/daipanda_plushie", "y": 270 },
+    "facing=south": { "model": "enbysmod:block/daipanda_plushie", "y": 0 },
+    "facing=west":  { "model": "enbysmod:block/daipanda_plushie", "y": 90 }
+  }
+}

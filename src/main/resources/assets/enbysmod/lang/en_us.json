@@ -11,8 +11,15 @@
   "item.enbysmod.emerald_coin": "Emerald Coin",
   "item.enbysmod.netherite_coin": "Netherite Coin",
 
+  "block.enbysmod.display_block": "Display Block",
+  "block.enbysmod.display_case": "Display Case",
+  "block.enbysmod.display_platform": "Display Platform",
+
   "block.enbysmod.plushie_crafting_bench": "Plushie Crafting Bench",
+
   "block.enbysmod.enbyvampy_plushie": "Enbyvampy Plushie",
+  "block.enbysmod.daipanda_plushie": "DaiPanda Plushie",
+
   "block.enbysmod.copper_coin_block": "Copper Coin Block",
   "block.enbysmod.iron_coin_block": "Iron Coin Block",
   "block.enbysmod.gold_coin_block": "Gold Coin Block",

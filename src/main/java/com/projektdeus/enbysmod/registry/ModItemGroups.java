@@ -1,7 +1,6 @@
-package com.projektdeus.enbysmod.item;
+package com.projektdeus.enbysmod.registry;
 
 import com.projektdeus.enbysmod.EnbysMod;
-import com.projektdeus.enbysmod.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;

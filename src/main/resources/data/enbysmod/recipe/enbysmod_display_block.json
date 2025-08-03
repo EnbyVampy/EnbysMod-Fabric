@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "_",
+    "G",
+    "_"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "_": {
+      "item": "enbysmod:display_platform"
+    }
+  },
+  "result": {
+    "id": "enbysmod:display_block",
+    "count": 1
+  }
+}

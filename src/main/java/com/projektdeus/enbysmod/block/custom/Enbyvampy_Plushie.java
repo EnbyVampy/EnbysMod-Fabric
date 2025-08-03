@@ -1,14 +1,13 @@
 package com.projektdeus.enbysmod.block.custom;
 
 import com.mojang.serialization.MapCodec;
-import com.projektdeus.enbysmod.block.PlushieBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.HorizontalFacingBlock;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;
 
-public class Plushie_Enbyvampy extends PlushieBlock {
-    public static final MapCodec<Plushie_Enbyvampy> CODEC = createCodec(Plushie_Enbyvampy::new);
+public class Enbyvampy_Plushie extends Plushie_Block {
+    public static final MapCodec<Enbyvampy_Plushie> CODEC = createCodec(Enbyvampy_Plushie::new);
 
     private static final VoxelShape SHAPE;
 
@@ -22,7 +21,7 @@ public class Plushie_Enbyvampy extends PlushieBlock {
         SHAPE = VoxelShapes.union(Body, LeftLeg, RightLeg, Head, LeftArm, RightArm);
     }
 
-    public Plushie_Enbyvampy(Settings settings) {
+    public Enbyvampy_Plushie(Settings settings) {
         super(settings);
     }
 

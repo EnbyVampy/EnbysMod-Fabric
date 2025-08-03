@@ -1,4 +1,4 @@
-package com.projektdeus.enbysmod.item;
+package com.projektdeus.enbysmod.registry;
 
 import com.projektdeus.enbysmod.EnbysMod;
 import net.minecraft.item.Item;
@@ -23,14 +23,5 @@ public class ModItems {
 
     public static void registerModItems() {
         EnbysMod.LOGGER.info("Registering Items for EnbysMod");
-//          already registered these to custom creative tab keeping for future reference
-//        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> entries.add(ENBY_COIN));
-//        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> entries.add(COPPER_COIN));
-//        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> entries.add(IRON_COIN));
-//        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> entries.add(GOLD_COIN));
-//        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> entries.add(DIAMOND_COIN));
-//        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> entries.add(EMERALD_COIN));
-//        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> entries.add(NETHERITE_COIN));
-
     }
 }

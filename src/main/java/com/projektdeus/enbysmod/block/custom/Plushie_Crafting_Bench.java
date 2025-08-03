@@ -12,8 +12,8 @@ import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
 import org.jetbrains.annotations.Nullable;
 
-public class PlushieCraftingBench extends HorizontalFacingBlock implements BlockEntityProvider {
-    public static final MapCodec<PlushieCraftingBench> CODEC = createCodec(PlushieCraftingBench::new);
+public class Plushie_Crafting_Bench extends HorizontalFacingBlock implements BlockEntityProvider {
+    public static final MapCodec<Plushie_Crafting_Bench> CODEC = createCodec(Plushie_Crafting_Bench::new);
 
 
     private static final VoxelShape SHAPE;
@@ -30,7 +30,7 @@ public class PlushieCraftingBench extends HorizontalFacingBlock implements Block
         SHAPE = VoxelShapes.union(top, leg1, leg2, leg3, leg4);
     }
 
-    public PlushieCraftingBench(Settings settings) {
+    public Plushie_Crafting_Bench(Settings settings) {
         super(settings);
     }
     @Override
