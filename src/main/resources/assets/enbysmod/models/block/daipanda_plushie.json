@@ -2,7 +2,7 @@
   "format_version": "1.9.0",
   "credit": "Made by enbyvampy",
   "textures": {
-    "1": "enbysmod:block/daipanda_plushie",
+    "1": "enbysmod:block/import/plushies/daipanda_plushie",
     "particle": "minecraft:block/black_wool"
   },
   "elements": [

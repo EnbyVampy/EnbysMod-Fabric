@@ -1,7 +1,7 @@
 package com.projektdeus.enbysmod.block.render;
 
 import com.projektdeus.enbysmod.EnbysMod;
-import com.projektdeus.enbysmod.block.entity.ModBlockEntities;
+import com.projektdeus.enbysmod.registry.ModBlockEntities;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.minecraft.client.render.block.entity.BlockEntityRendererFactories;

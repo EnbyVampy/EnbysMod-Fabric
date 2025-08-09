@@ -1,0 +1,6 @@
+{
+  "parent": "enbysmod:item/currency/bill",
+  "textures": {
+    "2": "enbysmod:item/currency/ten_dollar_bill"
+  }
+}

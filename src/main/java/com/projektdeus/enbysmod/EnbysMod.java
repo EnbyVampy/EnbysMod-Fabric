@@ -1,9 +1,6 @@
 package com.projektdeus.enbysmod;
 
-import com.projektdeus.enbysmod.registry.ModBlocks;
-import com.projektdeus.enbysmod.block.entity.ModBlockEntities;
-import com.projektdeus.enbysmod.registry.ModItemGroups;
-import com.projektdeus.enbysmod.registry.ModItems;
+import com.projektdeus.enbysmod.registry.*;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -19,6 +16,7 @@ public class EnbysMod implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModItemGroups.registerItemGroups();
+//		ModScreenHandlers.registerAll();
 		LOGGER.info("Enbys Mod loaded successfully");
 	}
 }

@@ -5,12 +5,14 @@ import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.rendering.v1.BlockEntityRendererRegistry;
 import net.minecraft.client.render.RenderLayer;
-import com.projektdeus.enbysmod.block.entity.ModBlockEntities;
+import com.projektdeus.enbysmod.registry.ModBlockEntities;
+
 
 import static com.projektdeus.enbysmod.registry.ModBlocks.*;
 
 public class EnbysModClient implements ClientModInitializer {
     @Override
+    @SuppressWarnings("deprecation")
     public void onInitializeClient() {
         BlockEntityRendererRegistry.register(ModBlockEntities.DISPLAY_BLOCK_ENTITY, DisplayBlockEntityRenderer::new);
         BlockEntityRendererRegistry.register(ModBlockEntities.DISPLAY_CASE_ENTITY, DisplayBlockEntityRenderer::new);

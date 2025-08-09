@@ -1,6 +1,6 @@
 package com.projektdeus.enbysmod.block.render;
 
-import com.projektdeus.enbysmod.block.entity.DisplayBlockEntity;
+import com.projektdeus.enbysmod.block.entity.GenericDisplayBlockEntity;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.font.TextRenderer;
 import net.minecraft.client.render.*;
@@ -18,7 +18,7 @@ import net.minecraft.util.math.RotationAxis;
 import net.minecraft.util.math.Vec3d;
 
 @SuppressWarnings({"IntegerDivisionInFloatingPointContext", "DataFlowIssue"})
-public class DisplayBlockEntityRenderer implements BlockEntityRenderer<DisplayBlockEntity>{
+public class DisplayBlockEntityRenderer implements BlockEntityRenderer<GenericDisplayBlockEntity>{
 
     private final TextRenderer textRenderer;
     protected final BlockEntityRenderDispatcher dispatcher;
@@ -29,7 +29,7 @@ public class DisplayBlockEntityRenderer implements BlockEntityRenderer<DisplayBl
     }
 
     //TODO: LOOK INTO ADDING TRANSPARENT BLACK BACKGROUND FOR TEXT
-    protected boolean isLookingAtItem(DisplayBlockEntity entity) {
+    protected boolean isLookingAtItem(GenericDisplayBlockEntity entity) {
         //This method will check if the player is looking at the item (i.e. the space above the block entity)
         MinecraftClient client = MinecraftClient.getInstance();
         if (client.player == null) return false;
@@ -55,7 +55,7 @@ public class DisplayBlockEntityRenderer implements BlockEntityRenderer<DisplayBl
         }
     }
 
-    protected boolean shouldRenderName(ItemStack stack, DisplayBlockEntity entity) {
+    protected boolean shouldRenderName(ItemStack stack, GenericDisplayBlockEntity entity) {
         //This method checks if the displayed item has a custom name and if the player
         //is looking at it (so that the renderer can go ahead and render it)
         return (!stack.isEmpty() && isLookingAtItem(entity) && MinecraftClient.isHudEnabled());
@@ -101,7 +101,7 @@ public class DisplayBlockEntityRenderer implements BlockEntityRenderer<DisplayBl
     }
 
     @Override
-    public void render(DisplayBlockEntity entity, float tickDelta, MatrixStack matrices,
+    public void render(GenericDisplayBlockEntity entity, float tickDelta, MatrixStack matrices,
                        VertexConsumerProvider vertexConsumers, int light, int overlay) {
         ItemStack stack = entity.getStoredItem();
 

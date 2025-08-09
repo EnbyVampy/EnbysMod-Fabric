@@ -12,7 +12,7 @@
 		"sources": ""
 	},
 	"license": "MIT",
-	"icon": "assets/enbysmod/icon.png",
+	"icon": "assets/enbysmod/textures/item/icons/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [

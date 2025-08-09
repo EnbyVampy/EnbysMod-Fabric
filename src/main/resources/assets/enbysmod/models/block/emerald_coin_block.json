@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "enbysmod:block/emerald_coin_block"
-  }
-}

@@ -1,0 +1,6 @@
+{
+  "parent": "enbysmod:item/currency/coin",
+  "textures": {
+    "1": "enbysmod:item/currency/twentyfive_cent_coin"
+  }
+}
