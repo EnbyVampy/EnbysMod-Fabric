@@ -1,6 +1,7 @@
 package com.projektdeus.enbysmod.registry;
 
 import com.projektdeus.enbysmod.EnbysMod;
+import com.projektdeus.enbysmod.block.Cable_Block;
 import com.projektdeus.enbysmod.block.custom.*;
 import com.projektdeus.enbysmod.block.custom.display_blocks.DisplayBlock;
 import com.projektdeus.enbysmod.block.custom.display_blocks.DisplayCase;
@@ -33,7 +34,8 @@ public class ModBlocks {
             .strength(3.5f).requiresTool().sounds(BlockSoundGroup.STONE).nonOpaque()));
     public static final Block DISPLAY_PLATFORM = registerBlock("display_platform", new DisplayPlatform(AbstractBlock.Settings.create()
             .strength(3.5f).requiresTool().sounds(BlockSoundGroup.STONE).nonOpaque()));
-
+    public static final Block CABLE_BLOCK = registerBlock("cable_block", new Cable_Block(AbstractBlock.Settings.create()
+            .strength(1.0f).sounds(BlockSoundGroup.WOOL).nonOpaque()));
 
 
 

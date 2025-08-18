@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "enbysmod:battery",
+    "minecraft:redstone_block"
+  ]
+}
