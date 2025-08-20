@@ -39,6 +39,8 @@ public class ModItemGroups {
                     entries.add(ModBlocks.DISPLAY_BLOCK);
                     entries.add(ModBlocks.DISPLAY_CASE);
                     entries.add(ModBlocks.DISPLAY_PLATFORM);
+                    entries.add(ModBlocks.DIRECTION_BLOCK);
+                    entries.add(ModBlocks.CABLE_BLOCK);
 
                     })
                     .build());

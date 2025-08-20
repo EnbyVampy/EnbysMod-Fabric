@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "enbysmod:block/direction_block" }
+  }
+}

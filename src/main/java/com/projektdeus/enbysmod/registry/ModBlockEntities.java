@@ -1,8 +1,7 @@
 package com.projektdeus.enbysmod.registry;
 
-import com.projektdeus.enbysmod.block.custom.plushies.Enbyvampy_Plushie;
-import com.projektdeus.enbysmod.block.entity.Cable_Block_Entity;
-import com.projektdeus.enbysmod.block.entity.GenericDisplayBlockEntity;
+import com.projektdeus.enbysmod.block.block_entities.Cable_Block_Entity;
+import com.projektdeus.enbysmod.block.block_entities.GenericDisplayBlockEntity;
 import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
